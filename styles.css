@@ -1826,6 +1826,82 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
 
 .category-tile:hover .btn-read-more::after { transform: translateX(4px); }
 
+/* ── Journey Arc (public summary — no day-by-day) ───────── */
+.itin-arc {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.arc-leg {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--amber);
+  border-radius: var(--r-md);
+  padding: 1.5rem;
+  transition: transform 0.25s var(--ease-spring), box-shadow 0.25s var(--ease);
+}
+
+.arc-leg:nth-child(even) { border-left-color: var(--teal); }
+
+.arc-leg:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(18,15,12,0.09);
+}
+
+.arc-num {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: var(--amber);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.arc-leg:nth-child(even) .arc-num { color: var(--teal); }
+
+.arc-location {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mist);
+  margin-bottom: 0.3rem;
+}
+
+.arc-leg h4 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+}
+
+.arc-leg p {
+  font-size: 0.875rem;
+  color: var(--stone);
+  line-height: 1.65;
+}
+
+.itin-enquire-nudge {
+  background: var(--amber-pale);
+  border: 1px solid rgba(224, 122, 47, 0.2);
+  border-radius: var(--r-md);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.itin-enquire-nudge p {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
 /* ── Itinerary Detail Pages ──────────────────────────────── */
 .itin-hero {
   position: relative;
@@ -2142,6 +2218,11 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
   .category-tiles { grid-template-columns: repeat(2, 1fr); }
   .category-tile  { height: 300px; }
   .itin-photos    { grid-template-columns: 1fr; }
+  .itin-arc       { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .itin-arc { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
