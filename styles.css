@@ -1009,7 +1009,7 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
 
 .steps {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .step {
@@ -1087,26 +1087,26 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
 }
 
 .impact-planet {
-  background: linear-gradient(145deg, #e8f4ea 0%, #d5edd8 100%);
-  border-color: rgba(27, 61, 32, 0.12);
+  background: linear-gradient(145deg, #e8f2e8 0%, #d4ead5 100%);
+  border-color: rgba(27, 61, 32, 0.1);
 }
 
 .impact-people {
-  background: linear-gradient(145deg, #fdf0e0 0%, #f8e4c4 100%);
-  border-color: rgba(224, 122, 47, 0.18);
+  background: linear-gradient(145deg, #fef3e6 0%, #fce7cc 100%);
+  border-color: rgba(224, 122, 47, 0.15);
 }
 
 .impact-paws {
-  background: linear-gradient(145deg, #e6f0f0 0%, #cce5e3 100%);
-  border-color: rgba(13, 124, 114, 0.15);
+  background: linear-gradient(145deg, #f0f7f5 0%, #ddf0ed 100%);
+  border-color: rgba(13, 124, 114, 0.12);
 }
 
 .impact-water {
-  background: linear-gradient(145deg, #e0eff7 0%, #c4dff0 100%);
-  border-color: rgba(13, 90, 140, 0.15);
+  background: linear-gradient(145deg, #e6f4f2 0%, #ceeae7 100%);
+  border-color: rgba(13, 124, 114, 0.12);
 }
 
-.impact-water .impact-icon { color: #1a6b9e; }
+.impact-water .impact-icon { color: var(--teal); }
 
 .impact-icon {
   width: 60px;
@@ -1264,18 +1264,18 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
 /* ── Sustainability ──────────────────────────────────────── */
 .sustainability {
   padding-block: var(--space-3xl);
-  background: var(--forest);
-  color: var(--cream);
+  background: var(--sand);
+  color: var(--ink);
 }
 .sustainability .section-label { color: var(--amber); }
-.sustainability .section-title { color: var(--cream); }
+.sustainability .section-title { color: var(--forest); }
 .sustain-lead {
   max-width: 720px;
   margin: 0 auto var(--space-xl);
   font-size: clamp(1rem, 1.3vw, 1.15rem);
   line-height: 1.8;
   text-align: center;
-  color: rgba(245,238,220,.85);
+  color: var(--stone);
 }
 .sustain-pillars {
   display: grid;
@@ -1283,16 +1283,17 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
   gap: var(--space-lg);
 }
 .sustain-pillar {
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.1);
+  background: var(--white);
+  border: 1px solid var(--border);
   border-top: 3px solid var(--amber);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: var(--space-lg);
+  box-shadow: 0 4px 20px rgba(18,15,12,.05);
 }
 .sustain-icon {
   width: 52px;
   height: 52px;
-  background: rgba(212,165,72,.15);
+  background: var(--amber-pale);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1301,16 +1302,16 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
   color: var(--amber);
 }
 .sustain-pillar h4 {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--cream);
+  color: var(--forest);
   margin-bottom: var(--space-sm);
 }
 .sustain-pillar p {
   font-size: .9rem;
   line-height: 1.7;
-  color: rgba(245,238,220,.75);
+  color: var(--stone);
   margin: 0;
 }
 @media (max-width: 1024px) {
@@ -1865,6 +1866,22 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
   margin-bottom: 1rem;
 }
 
+.tile-coming-soon {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 20px;
+  padding: 0.2rem 0.65rem;
+  margin-bottom: 0.5rem;
+  backdrop-filter: blur(4px);
+}
+
 .btn-read-more {
   display: inline-flex;
   align-items: center;
@@ -1964,9 +1981,9 @@ input, textarea, select { font-family: inherit; font-size: inherit; }
 /* ── About Page ──────────────────────────────────────────── */
 .about-hero {
   position: relative;
-  min-height: 55vh;
+  min-height: 65vh;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .about-hero-media {
   position: absolute;
