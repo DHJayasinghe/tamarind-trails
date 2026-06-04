@@ -1,0 +1,9 @@
+# PDFs (source content — not for version control)
+*.pdf
+
+# Claude Code local data
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
