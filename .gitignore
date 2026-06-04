@@ -1,0 +1,18 @@
+# PDFs (source content — not for version control)
+*.pdf
+
+# HEIC source photos (originals — only converted JPGs are committed)
+assets/*.HEIC
+
+# Claude Code local data
+.claude/
+
+# Playwright MCP working directory
+.playwright-mcp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video files
+assets/*.MP4

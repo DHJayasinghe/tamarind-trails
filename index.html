@@ -17,14 +17,14 @@
 <body>
 
   <!-- ===== HEADER ===== -->
-  <header class="header" id="header">
+  <header class="header header--split-nav" id="header">
     <nav class="nav">
       <a href="#home" class="logo">
         <span class="logo-name">Tamarind Trails</span>
         <span class="logo-tag">Sri Lanka</span>
       </a>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#trails">Trails</a></li>
         <li><a href="#how-it-works">How It Works</a></li>
         <li><a href="#impact">Our Impact</a></li>
@@ -41,206 +41,174 @@
 
   <main>
 
-    <!-- ===== HERO ===== -->
-    <section id="home" class="hero">
-      <div class="hero-media">
+    <!-- ===== HERO: Split Editorial ===== -->
+    <section id="home" class="hero-split">
+      <div class="hero-split-photo">
         <img
-          src="https://images.unsplash.com/photo-1585171328560-947fbd92d6f0?w=1920&q=85&fm=jpg&fit=crop"
-          alt="Lush green tea plantation hills in Nuwara Eliya, Sri Lanka"
-          class="hero-bg-img"
+          src="assets/sigiriya-rock2.jpg"
+          alt="Sigiriya rock fortress rising above the jungle canopy, Sri Lanka"
           loading="eager"
-          id="heroBgImg"
         >
-        <div class="hero-overlay"></div>
+        <div class="hero-split-photo-overlay"></div>
+        <div class="hero-split-places" aria-hidden="true">
+          <span class="hero-split-place">Ella</span>
+          <span class="hero-split-place">Tea Country</span>
+          <span class="hero-split-place">Galle Fort</span>
+        </div>
       </div>
-      <div class="hero-content">
-        <p class="hero-eyebrow">Sri Lanka &middot; Sustainably Crafted</p>
-        <h1 class="hero-title">
-          <span class="hero-line">Discover Sri Lanka</span>
-          <span class="hero-line">on the Tamarind Trails</span>
+      <div class="hero-split-content">
+        <p class="hero-split-eyebrow">Sri Lanka &middot; Sustainably Crafted</p>
+        <h1 class="hero-split-title">
+          Discover<br>the Soul<br>of <em>Sri Lanka</em>
         </h1>
-        <p class="hero-subtitle">Slow, soulful journeys crafted by Sri Lankans for curious UK travellers who care about culture, nature and sustainability.</p>
-        <div class="hero-places">
-          <span>Sigiriya</span>
-          <span>Tea Country</span>
-          <span>Yala</span>
-          <span>Galle Fort</span>
-          <span>Ella</span>
+        <div class="hero-split-divider"></div>
+        <p class="hero-split-body">Slow, soulful journeys crafted by Sri Lankans for the curious UK traveller. Tea trains, wildlife safaris, ancient temples &mdash; unhurried, unscripted, unforgettable.</p>
+        <div class="hero-split-actions">
+          <a href="#trails" class="btn-split-primary">Explore Trails</a>
+          <a href="#contact" class="btn-split-ghost">Plan a Custom Trip</a>
         </div>
-        <div class="hero-ctas">
-          <a href="#trails" class="btn btn-primary">Explore Sample Itineraries</a>
-          <a href="#contact" class="btn btn-outline-white">Plan a Custom Trip</a>
-        </div>
-      </div>
-      <div class="hero-scroll" aria-hidden="true">
-        <span>Scroll</span>
-        <div class="scroll-dot"></div>
+        <div class="hero-split-watermark" aria-hidden="true">01</div>
       </div>
     </section>
 
-    <!-- ===== INTRO — WHAT IS TAMARIND TRAILS ===== -->
-    <section id="about" class="intro">
-      <div class="container intro-inner">
-        <div class="intro-image-col reveal-left">
-          <div class="intro-image-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1743636521285-f37bfd1968a4?w=800&q=85&fm=jpg&fit=crop"
-              alt="Vibrant Sri Lankan fruit and spice market stall with colourful produce"
-              loading="lazy"
-            >
-            <div class="intro-badge">
-              <span>Sri Lankan</span>
-              <em>Owned &amp; Operated</em>
+    <!-- ===== EDITORIAL BAND ===== -->
+    <div class="editorial-band" aria-hidden="true">
+      <div class="editorial-band-item"><div class="editorial-band-dot"></div><span class="editorial-band-text">Sri Lankan-owned &amp; operated</span></div>
+      <div class="editorial-band-item"><div class="editorial-band-dot"></div><span class="editorial-band-text">Crafted for UK travellers</span></div>
+      <div class="editorial-band-item"><div class="editorial-band-dot"></div><span class="editorial-band-text">Zero-exploitation policy</span></div>
+      <div class="editorial-band-item"><div class="editorial-band-dot"></div><span class="editorial-band-text">Essential &middot; Boutique &middot; Signature</span></div>
+      <div class="editorial-band-item"><div class="editorial-band-dot"></div><span class="editorial-band-text">UK timezone support</span></div>
+      <div class="editorial-band-item"><div class="editorial-band-dot"></div><span class="editorial-band-text">Transparent all-inclusive pricing</span></div>
+      <div class="editorial-band-item"><div class="editorial-band-dot"></div><span class="editorial-band-text">No hidden fees, ever</span></div>
+    </div>
+
+    <!-- ===== ABOUT: Editorial Split ===== -->
+    <section id="about" class="about-editorial">
+      <div class="about-editorial-photo">
+        <img
+          src="assets/temple-of-tooth-relic.jpg"
+          alt="Temple of the Tooth Relic, Kandy, Sri Lanka"
+          loading="lazy"
+        >
+        <div class="about-editorial-caption">Sri Lanka &mdash; Ancient &amp; Sacred</div>
+      </div>
+      <div class="about-editorial-text">
+        <div class="about-editorial-watermark" aria-hidden="true">02</div>
+        <p class="about-editorial-eyebrow">Why Tamarind Trails</p>
+        <h2 class="about-editorial-headline">Sri Lanka is best<br><em>experienced slowly.</em></h2>
+        <div class="about-editorial-rule"></div>
+        <p class="about-editorial-body">We design small-scale, sustainable journeys for UK travellers who want more than a checklist of sights &mdash; crafted by Sri Lankans who know the stories behind the scenery.</p>
+        <div class="about-editorial-pillars">
+          <div class="about-editorial-pillar">
+            <span class="about-editorial-num">01</span>
+            <div class="about-editorial-pillar-body">
+              <strong>Roots, Not Resorts</strong>
+              <span>Family kitchens, village artisans, hidden forest paths. Real connection, not just tourism.</span>
+            </div>
+          </div>
+          <div class="about-editorial-pillar">
+            <span class="about-editorial-num">02</span>
+            <div class="about-editorial-pillar-body">
+              <strong>Built for the UK Explorer</strong>
+              <span>Expertly paced, honestly priced, reliably supported &mdash; from first click to flight home.</span>
+            </div>
+          </div>
+          <div class="about-editorial-pillar">
+            <span class="about-editorial-num">03</span>
+            <div class="about-editorial-pillar-body">
+              <strong>Ethical by Design</strong>
+              <span>Eco-stays, zero animal exploitation, plastic-free by default. Your footprint stays small.</span>
+            </div>
+          </div>
+          <div class="about-editorial-pillar">
+            <span class="about-editorial-num">04</span>
+            <div class="about-editorial-pillar-body">
+              <strong>Fair &amp; Transparent Terms</strong>
+              <span>No surprises. Clear timelines, all-inclusive pricing, full terms before you book.</span>
+            </div>
+          </div>
+          <div class="about-editorial-pillar">
+            <span class="about-editorial-num">05</span>
+            <div class="about-editorial-pillar-body">
+              <strong>Your Pace, Your Path</strong>
+              <span>Tailor a signature route or build a custom trail across three comfort tiers.</span>
             </div>
           </div>
         </div>
-        <div class="intro-text-col reveal-right">
-          <span class="section-label">What is Tamarind Trails?</span>
-          <h2 class="section-title">Sri Lanka is best<br>experienced slowly.</h2>
-          <p class="body-text">At Tamarind Trails, we believe Sri Lanka is best experienced slowly &mdash; with time to taste, listen and connect.</p>
-          <p class="body-text">We design small-scale, sustainable journeys for UK travellers who want more than a checklist of sights. From misty hill country and ancient cities to quiet coastal villages and jungle hideouts, our itineraries are crafted by Sri Lankans who know the stories behind the scenery.</p>
-          <p class="body-text">Every journey respects our communities, wildlife and environment &mdash; so your holiday brings joy not just to you, but to the island too.</p>
-          <ul class="intro-features">
-            <li>Locally designed &amp; operated from Sri Lanka</li>
-            <li>Small-scale, sustainable &amp; thoughtfully paced</li>
-            <li>Crafted for UK travellers who care</li>
-          </ul>
-        </div>
       </div>
     </section>
 
-    <!-- ===== WHY TRAVEL WITH US ===== -->
-    <section class="why-us">
+    <!-- ===== SAMPLE ITINERARIES: Editorial Grid ===== -->
+    <section id="trails" class="trails-editorial">
       <div class="container">
-        <div class="section-header center-header">
-          <span class="section-label label-light">Why Tamarind Trails?</span>
-          <h2 class="section-title">Travel with Confidence</h2>
-          <p class="section-subtitle">We are a small team who will remember your name, your favourite food, and how you take your tea.</p>
+        <div class="trails-editorial-header">
+          <h2 class="trails-editorial-title">Choose<br>Your <em>Trail</em></h2>
+          <p class="trails-editorial-intro">Five signature collections, each crafted around a different experience &mdash; or we&rsquo;ll build yours from scratch across three comfort tiers: Essential, Boutique and Signature.</p>
         </div>
-        <div class="pillars-grid">
-          <div class="pillar-card reveal-up" style="--d:0s">
-            <div class="pillar-num">01</div>
-            <h3>Locally Owned,<br>Deeply Rooted</h3>
-            <p>We're Sri Lankans sharing our home as we know it &mdash; through family kitchens, village artisans, forest paths and tea fields, not just tourist hotspots.</p>
-          </div>
-          <div class="pillar-card reveal-up" style="--d:0.1s">
-            <div class="pillar-num">02</div>
-            <h3>Designed for<br>UK Travellers</h3>
-            <p>Safe, well-paced itineraries, honest advice, clear pricing and reliable support from first enquiry to flight home &mdash; we understand exactly what you need.</p>
-          </div>
-          <div class="pillar-card reveal-up" style="--d:0.2s">
-            <div class="pillar-num">03</div>
-            <h3>Sustainable<br>by Default</h3>
-            <p>We partner with eco-stays, local guides and small businesses. No exploitative animal tourism, low single-use plastic, and options to offset your carbon footprint.</p>
-          </div>
-          <div class="pillar-card reveal-up" style="--d:0.3s">
-            <div class="pillar-num">04</div>
-            <h3>Flexible,<br>Thoughtfully Curated</h3>
-            <p>Choose from our signature routes or build your own Tamarind Trail. We adapt pace, comfort and focus &mdash; culture, nature, food, wellness &mdash; to match you.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="trails-editorial-grid">
 
-    <!-- ===== SAMPLE ITINERARIES ===== -->
-    <section id="trails" class="trails">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">Sample Itineraries</span>
-          <h2 class="section-title">Choose Your Trail</h2>
-          <p class="section-subtitle">Three signature routes, each available in Essential, Boutique or Signature tier &mdash; or we'll craft yours from scratch.</p>
-        </div>
-        <div class="trail-cards">
+          <!-- A: Heritage & Culture — tall featured card -->
+          <a href="itinerary-chronicles-heritage.html" class="trail-ed-card trail-ed-card--tall">
+            <img src="assets/polonnaruwa-temple-complex.jpg" alt="Polonnaruwa temple complex, ancient capital, Sri Lanka" loading="lazy">
+            <div class="trail-ed-overlay"></div>
+            <div class="trail-ed-content">
+              <div class="trail-ed-letter">A</div>
+              <h3 class="trail-ed-title">Heritage &amp;<br>Culture</h3>
+              <p class="trail-ed-desc">Ancient kingdoms, sacred temples and misty highland peaks. Eight iconic stops, seven unforgettable days.</p>
+              <span class="trail-ed-link">Read More</span>
+            </div>
+          </a>
 
-          <!-- Heritage & Hill Country -->
-          <article class="trail-card reveal-up" style="--d:0s; --card-img:url('https://images.unsplash.com/photo-1706766958001-176b3d7800ff?w=800&q=85&fm=jpg&fit=crop')">
-            <div class="trail-media">
-              <div class="trail-img"></div>
-              <span class="trail-duration">10 Days</span>
+          <!-- B: Wildlife & Coast -->
+          <a href="itinerary-wild-highlands.html" class="trail-ed-card">
+            <img src="assets/hiriketiya-beach.jpg" alt="Hiriketiya beach, southern coast, Sri Lanka" loading="lazy">
+            <div class="trail-ed-overlay"></div>
+            <div class="trail-ed-content">
+              <div class="trail-ed-letter">B</div>
+              <h3 class="trail-ed-title">Wildlife &amp; Coast</h3>
+              <p class="trail-ed-desc">Raw highlands, safari wilderness and tranquil southern shores.</p>
+              <span class="trail-ed-link">Read More</span>
             </div>
-            <div class="trail-body">
-              <div class="trail-tags">
-                <span>Culture</span>
-                <span>Tea</span>
-                <span>Heritage</span>
-              </div>
-              <h3>Heritage &amp; Hill Country</h3>
-              <p>Kandy, ancient cities and tea country. Temples at sunrise, scenic train rides through misty hills, village visits and slow evenings with spice-laden home-cooked meals.</p>
-              <ul class="trail-highlights">
-                <li>Sigiriya Rock Fortress</li>
-                <li>Temple of the Tooth</li>
-                <li>Ella &amp; Nine Arches Bridge</li>
-                <li>Galle Fort</li>
-              </ul>
-              <div class="trail-tiers">
-                <span class="tier-pill">Essential</span>
-                <span class="tier-pill tier-mid">Boutique</span>
-                <span class="tier-pill tier-top">Signature</span>
-              </div>
-              <a href="#contact" class="btn btn-trail">Enquire About This Trail</a>
-            </div>
-          </article>
+          </a>
 
-          <!-- Coast, Wildlife & Wellness -->
-          <article class="trail-card reveal-up" style="--d:0.15s; --card-img:url('https://images.unsplash.com/photo-1674556275226-47b6b393d623?w=800&q=85&fm=jpg&fit=crop')">
-            <div class="trail-media">
-              <div class="trail-img"></div>
-              <span class="trail-duration">12 Days</span>
+          <!-- C: Adventure Tours -->
+          <a href="itinerary-silent-footstep.html" class="trail-ed-card">
+            <img src="assets/minneriya-elephants.jpg" alt="Wild elephants at Minneriya National Park, Sri Lanka" loading="lazy">
+            <div class="trail-ed-overlay"></div>
+            <div class="trail-ed-content">
+              <div class="trail-ed-letter">C</div>
+              <h3 class="trail-ed-title">Adventure Tours</h3>
+              <p class="trail-ed-desc">Slow discovery across heritage, wild horizons and hidden coasts.</p>
+              <span class="trail-ed-link">Read More</span>
             </div>
-            <div class="trail-body">
-              <div class="trail-tags">
-                <span>Wildlife</span>
-                <span>Coast</span>
-                <span>Wellness</span>
-              </div>
-              <h3>Coast, Wildlife &amp; Wellness</h3>
-              <p>Ethical wildlife safaris, mangrove backwaters and quiet beaches. Balance your days between nature, ocean time and simple Ayurvedic wellness experiences.</p>
-              <ul class="trail-highlights">
-                <li>Yala &amp; Udawalawe Safari</li>
-                <li>Mangrove Boat Trip</li>
-                <li>Mirissa Coastline</li>
-                <li>Ayurveda &amp; Wellness Day</li>
-              </ul>
-              <div class="trail-tiers">
-                <span class="tier-pill">Essential</span>
-                <span class="tier-pill tier-mid">Boutique</span>
-                <span class="tier-pill tier-top">Signature</span>
-              </div>
-              <a href="#contact" class="btn btn-trail">Enquire About This Trail</a>
-            </div>
-          </article>
+          </a>
 
-          <!-- Hidden Tamarind Trails -->
-          <article class="trail-card reveal-up" style="--d:0.3s; --card-img:url('https://images.unsplash.com/photo-1711797750174-c3750dd9d7c9?w=800&q=85&fm=jpg&fit=crop')">
-            <div class="trail-media">
-              <div class="trail-img"></div>
-              <span class="trail-duration">14 Days</span>
+          <!-- D: Wellness & Ayurveda -->
+          <a href="#contact" class="trail-ed-card">
+            <img src="assets/coconut-tree-hill-mirissa.jpg" alt="Coconut tree hill, Mirissa, Sri Lanka" loading="lazy">
+            <div class="trail-ed-overlay"></div>
+            <div class="trail-ed-content">
+              <div class="trail-ed-letter">D</div>
+              <div class="trail-ed-badge">Coming Soon</div>
+              <h3 class="trail-ed-title">Wellness &amp; Ayurveda</h3>
+              <span class="trail-ed-link">Ask About This Trail</span>
             </div>
-            <div class="trail-body">
-              <div class="trail-tags">
-                <span>Off the beaten path</span>
-                <span>Villages</span>
-                <span>Hiking</span>
-              </div>
-              <h3>Hidden Tamarind Trails</h3>
-              <p>For travellers who want fewer crowds and more connection. Family-run guesthouses, village walks, lesser-known viewpoints and the freedom to simply linger.</p>
-              <ul class="trail-highlights">
-                <li>Knuckles Range Hikes</li>
-                <li>Village Homestays</li>
-                <li>Rural Eastern Sri Lanka</li>
-                <li>Quiet South Coast</li>
-              </ul>
-              <div class="trail-tiers">
-                <span class="tier-pill">Essential</span>
-                <span class="tier-pill tier-mid">Boutique</span>
-                <span class="tier-pill tier-top">Signature</span>
-              </div>
-              <a href="#contact" class="btn btn-trail">Enquire About This Trail</a>
+          </a>
+
+          <!-- E: North & East Coast -->
+          <a href="#contact" class="trail-ed-card">
+            <img src="assets/jungle-beach.jpg" alt="Jungle beach, North and East Coast, Sri Lanka" loading="lazy">
+            <div class="trail-ed-overlay"></div>
+            <div class="trail-ed-content">
+              <div class="trail-ed-letter">E</div>
+              <div class="trail-ed-badge">Coming Soon</div>
+              <h3 class="trail-ed-title">North &amp; East Coast</h3>
+              <span class="trail-ed-link">Ask About This Trail</span>
             </div>
-          </article>
+          </a>
 
         </div>
-        <p class="trails-footnote">All itineraries are available in three experience tiers — <strong>Essential</strong>, <strong>Boutique</strong> and <strong>Signature</strong>. Prices on request. International flights not included.</p>
+        <p class="trails-editorial-footnote">All itineraries are available in three experience tiers &mdash; <strong>Essential</strong>, <strong>Boutique</strong> and <strong>Signature</strong>. Prices on request. International flights not included.</p>
       </div>
     </section>
 
@@ -254,68 +222,82 @@
         <div class="steps">
           <div class="step reveal-up" style="--d:0s">
             <div class="step-num">01</div>
-            <h3>Share Your Dreams</h3>
-            <p>Tell us how long you have, what you love &mdash; temples, tea, wildlife, beaches, food &mdash; and your budget.</p>
+            <h3>Share Your Vision</h3>
+            <p>Tell us your dreams &mdash; your tastes, pace, and budget. We listen first.</p>
           </div>
           <div class="step-line" aria-hidden="true"></div>
           <div class="step reveal-up" style="--d:0.1s">
             <div class="step-num">02</div>
-            <h3>We Design Your Trail</h3>
-            <p>We create a draft itinerary with stays, experiences and travel times that actually feel realistic &mdash; not rushed.</p>
+            <h3>Local Design</h3>
+            <p>We craft a realistic, unhurried route through hidden paths and authentic stays.</p>
           </div>
           <div class="step-line" aria-hidden="true"></div>
           <div class="step reveal-up" style="--d:0.2s">
             <div class="step-num">03</div>
-            <h3>Refine Together</h3>
-            <p>We tweak and adjust until it feels perfect. You'll see clear pricing and what's included at every step.</p>
+            <h3>Perfect the Plan</h3>
+            <p>We refine the details together until the pacing and pricing feel exactly right.</p>
           </div>
           <div class="step-line" aria-hidden="true"></div>
           <div class="step reveal-up" style="--d:0.3s">
             <div class="step-num">04</div>
-            <h3>Travel with Local Support</h3>
-            <p>From airport welcome to final farewell, our local team and partners are there with you every step of the way.</p>
+            <h3>On-the-Ground Heart</h3>
+            <p>Expert local support from arrival to farewell. You're in safe, friendly hands.</p>
+          </div>
+          <div class="step-line" aria-hidden="true"></div>
+          <div class="step reveal-up" style="--d:0.4s">
+            <div class="step-num">05</div>
+            <h3>Travel with Purpose</h3>
+            <p>Go beyond the sights. We share the stories and history that turn a trip into a lifelong memory.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== OUR IMPACT ===== -->
+    <!-- ===== TRAVEL WITH FOCUS ===== -->
     <section id="impact" class="impact">
       <div class="container">
         <div class="section-header center-header">
-          <span class="section-label">Our Impact</span>
-          <h2 class="section-title">People, Planet &amp; Paws</h2>
-          <p class="section-subtitle">When you travel with Tamarind Trails, your journey does more than move you from A to B.</p>
+          <span class="section-label">Travel with Focus</span>
+          <h2 class="section-title">Turn Your Journey into a Legacy</h2>
+          <p class="section-subtitle">Choose your impact. Your trip can leave something real behind.</p>
         </div>
         <div class="impact-grid">
-          <div class="impact-card impact-planet reveal-up" style="--d:0s">
-            <div class="impact-icon">
-              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </div>
-            <h3>Planet</h3>
-            <h4>Travelling Lighter</h4>
-            <p>Slow, logical routes with less backtracking. Scenic train journeys. Partners who minimise plastic and respect wildlife habitats. Travel that treads gently on the island we call home.</p>
-          </div>
-          <div class="impact-card impact-people reveal-up" style="--d:0.1s">
-            <div class="impact-icon">
-              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            </div>
-            <h3>People</h3>
-            <h4>Supporting Local Lives</h4>
-            <p>Locally owned guesthouses, fairly paid guides and drivers, community cooking classes and craft workshops. Your money supports real Sri Lankan families, not big anonymous chains.</p>
-          </div>
-          <div class="impact-card impact-paws reveal-up" style="--d:0.2s">
+          <div class="impact-card impact-paws reveal-up" style="--d:0s">
             <div class="impact-icon">
               <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="4" r="1.5"/><circle cx="17" cy="4" r="1.5"/><circle cx="4" cy="9" r="1.5"/><circle cx="20" cy="9" r="1.5"/><path d="M12 22c-4 0-7-2-7-5 0-2.5 2-4.5 4-5.5 1-0.5 2-0.5 3-0.5s2 0 3 .5c2 1 4 3 4 5.5 0 3-3 5-7 5z"/></svg>
             </div>
-            <h3>Paws</h3>
-            <h4>Caring for Street Dogs</h4>
-            <p>For every Tamarind Trails booking, we donate £15 to street dog welfare in Sri Lanka. Your holiday helps give Sri Lanka's street animals a safer, kinder future.</p>
+            <h3>Paws &amp; Support</h3>
+            <h4>Animal Sanctuaries</h4>
+            <p>Volunteer your time at local animal sanctuaries. Give Sri Lanka's animals a safer, kinder future while building a connection that goes beyond sightseeing.</p>
+          </div>
+          <div class="impact-card impact-planet reveal-up" style="--d:0.1s">
+            <div class="impact-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </div>
+            <h3>Rooted in Nature</h3>
+            <h4>Reforestation Efforts</h4>
+            <p>Join reforestation efforts &mdash; from inland forest to vital mangrove planting and community gardens. Actively restore the landscapes you have come to love.</p>
+          </div>
+          <div class="impact-card impact-water reveal-up" style="--d:0.2s">
+            <div class="impact-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+            </div>
+            <h3>Clean Currents</h3>
+            <h4>Protect Our Waters</h4>
+            <p>Gather micro-plastics while kayaking or join beach cleans along our coastline. Keep the waters that make Sri Lanka extraordinary clean for generations to come.</p>
+          </div>
+          <div class="impact-card impact-people reveal-up" style="--d:0.3s">
+            <div class="impact-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Shared Strength</h3>
+            <h4>Community Projects</h4>
+            <p>Direct solidarity through community-led projects and local heritage support. Your presence strengthens the very communities that make your journey meaningful.</p>
           </div>
         </div>
-        <blockquote class="impact-quote reveal-up" style="--d:0.3s">
-          <p>"Tamarind adds a tangy, unforgettable note to Sri Lankan cooking. We want your journey to feel the same &mdash; without leaving a bitter impact behind."</p>
-          <a href="#contact" class="btn btn-secondary-dark">Travel Responsibly with Us</a>
+        <blockquote class="impact-quote reveal-up" style="--d:0.4s">
+          <p>Don't just visit &mdash; contribute. Bring home a story that matters.</p>
+          <a href="#contact" class="btn btn-secondary-dark">Plan Your Impact Journey</a>
         </blockquote>
       </div>
     </section>
@@ -324,8 +306,8 @@
     <section class="cta-full">
       <div class="cta-full-media">
         <img
-          src="https://images.unsplash.com/photo-1578517929167-db9ed31cd5c6?w=1920&q=85&fm=jpg&fit=crop"
-          alt="Scenic blue train travelling through lush green Sri Lankan hill country"
+          src="assets/nine-arch-bridge.jpg"
+          alt="Nine Arches Bridge, Ella, surrounded by jungle, Sri Lanka"
           loading="lazy"
         >
         <div class="cta-full-overlay"></div>
@@ -337,6 +319,49 @@
         <div class="cta-actions">
           <a href="#contact" class="btn btn-primary">Get in Touch</a>
           <a href="https://wa.me/94764801863" class="btn btn-outline-white" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SUSTAINABILITY ===== -->
+    <section id="sustainability" class="sustainability">
+      <div class="container">
+        <div class="section-header center-header">
+          <span class="section-label">Sustainability &amp; Responsibility</span>
+          <h2 class="section-title">At the Heart of Everything We Do</h2>
+        </div>
+        <div class="sustain-body reveal-up" style="--d:0s">
+          <p class="sustain-lead">Tamarind adds a tangy, unforgettable zest to our island&rsquo;s flavours &mdash; and we want your journey to leave that same vibrant impression without a bitter footprint.</p>
+          <div class="sustain-pillars">
+            <div class="sustain-pillar reveal-up" style="--d:0.05s">
+              <div class="sustain-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <h4>Local Stays &amp; Guides</h4>
+              <p>We prioritise locally-owned stays and expert regional guides to ensure your travel directly supports Sri Lankan communities.</p>
+            </div>
+            <div class="sustain-pillar reveal-up" style="--d:0.1s">
+              <div class="sustain-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="4" r="1.5"/><circle cx="17" cy="4" r="1.5"/><circle cx="4" cy="9" r="1.5"/><circle cx="20" cy="9" r="1.5"/><path d="M12 22c-4 0-7-2-7-5 0-2.5 2-4.5 4-5.5 1-0.5 2-0.5 3-0.5s2 0 3 .5c2 1 4 3 4 5.5 0 3-3 5-7 5z"/></svg>
+              </div>
+              <h4>Animal Welfare First</h4>
+              <p>By vetting every partner for strict animal welfare and environmental ethics, we eliminate activities that harm wildlife.</p>
+            </div>
+            <div class="sustain-pillar reveal-up" style="--d:0.15s">
+              <div class="sustain-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22V12M12 12C12 12 7 9 4 5c5 0 8 3 8 7zM12 12c0 0 5-3 8-7-5 0-8 3-8 7z"/></svg>
+              </div>
+              <h4>Conservation by Default</h4>
+              <p>From reducing plastic to supporting local conservation initiatives, our sustainability choices are woven directly into your itinerary.</p>
+            </div>
+            <div class="sustain-pillar reveal-up" style="--d:0.2s">
+              <div class="sustain-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10A15.3 15.3 0 0 1 8 12a15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h4>A Force for Good</h4>
+              <p>With Tamarind Trails, your adventure isn&rsquo;t just a trip &mdash; it&rsquo;s a force for good for the island and everyone who calls it home.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -379,9 +404,14 @@
               <div class="select-wrap">
                 <select id="trail" name="trail">
                   <option value="">Select a trail (optional)</option>
-                  <option value="Heritage &amp; Hill Country (10 Days)">Heritage &amp; Hill Country — 10 Days</option>
-                  <option value="Coast, Wildlife &amp; Wellness (12 Days)">Coast, Wildlife &amp; Wellness — 12 Days</option>
-                  <option value="Hidden Tamarind Trails (14 Days)">Hidden Tamarind Trails — 14 Days</option>
+                  <option value="A — Heritage &amp; Culture">A &mdash; Heritage &amp; Culture</option>
+                  <option value="A1 — Chronicles of Heritage &amp; Emerald Peaks (7 Days)">A1 &mdash; Chronicles of Heritage &amp; Emerald Peaks (7 Days)</option>
+                  <option value="B — Wildlife &amp; Coast">B &mdash; Wildlife &amp; Coast</option>
+                  <option value="B1 — The Wild Highlands &amp; East Coast Loop (7 Days)">B1 &mdash; Wild Highlands &amp; East Coast Loop (7 Days)</option>
+                  <option value="C — Adventure Tours">C &mdash; Adventure Tours</option>
+                  <option value="C1 — The Silent Footstep (14 Days)">C1 &mdash; The Silent Footstep (14 Days)</option>
+                  <option value="D — Wellness &amp; Ayurveda Retreat">D &mdash; Wellness &amp; Ayurveda Retreat</option>
+                  <option value="E — North &amp; East Coast">E &mdash; North &amp; East Coast</option>
                   <option value="Custom Itinerary">Custom Itinerary</option>
                 </select>
               </div>
@@ -414,7 +444,7 @@
       <div class="footer-nav">
         <h4>Explore</h4>
         <ul>
-          <li><a href="#about">About Us</a></li>
+          <li><a href="about.html">About Us</a></li>
           <li><a href="#trails">Sample Trails</a></li>
           <li><a href="#how-it-works">How It Works</a></li>
           <li><a href="#impact">Our Impact</a></li>
